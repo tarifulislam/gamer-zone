@@ -643,7 +643,8 @@ footer{
     .banner-content{
         width: 100%;
         margin-top: 30px;
-        padding: 0 20%;
+        padding: 0 5%;
+        margin-left: 21%;
     }
 
     .banner-content h2 {
@@ -687,9 +688,27 @@ footer{
         width: 100%;
     }
 
+
+    .about-img-content h2 {
+        font-size: 40px;
+    }
+
+    .about-img-content p {
+        font-size: 14px;
+    }
+
     .online-game-container{
         display: grid;
         grid-template-columns:1fr;
+    }
+
+    .online-game-header h2 {
+        font-size: 34px;
+    }
+
+
+    .online-game-header span {
+        font-size: 34px;
     }
 
     .game-hover-layer{
@@ -791,9 +810,12 @@ footer{
 
     }
 
+    .game-section {
+        gap: 5px;
+    }
         
     .card{
-        flex-basis: 100px;
+        flex-basis: 96px;
         padding: 5px;
         border-radius: 40px;
        
