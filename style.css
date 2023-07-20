@@ -707,8 +707,11 @@ footer{
     .playgame-content{
         width: 100%;
         text-align: center;
-    
+    }
 
+    .playgame-content h2 {
+        font-size: 43px;
+    
     }
 
     .playgame-img{
